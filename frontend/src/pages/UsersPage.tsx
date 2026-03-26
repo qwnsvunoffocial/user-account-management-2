@@ -47,7 +47,7 @@ const UsersPage: React.FC = () => {
       console.error('Failed to delete user:', err);
       setError('Nie udało się usunąć użytkownika.');
     }
-  }, [users.length, currentPage]);
+  }, [users, currentPage]);
 
   const handleEdit = useCallback((userId: number) => {
     navigate(`/users/${userId}/edit`);
