@@ -1,0 +1,27 @@
+.info {
+  background: #e8eaf6;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.95rem;
+}
+
+.info p {
+  margin: 0.2rem 0;
+}
+
+.success {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.optional {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #757575;
+}

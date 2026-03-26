@@ -1,0 +1,31 @@
+.optional {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #757575;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cancelBtn {
+  flex: 1;
+  padding: 0.65rem;
+  background: #757575;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.cancelBtn:hover,
+.cancelBtn:focus {
+  background: #616161;
+  outline: 2px solid #616161;
+  outline-offset: 2px;
+}
